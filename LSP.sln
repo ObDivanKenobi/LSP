@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{748580DD-F369-440D-8DD5-31BF989B94F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmells", "CodeOk\CodeSmells.csproj", "{FC8AF42D-96B7-45AE-8D5D-FD273A4CE69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmellsTests", "CodeSmellsTests\CodeSmellsTests.csproj", "{1AC815E0-F90A-44DE-B063-21AB1B0CF54C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{748580DD-F369-440D-8DD5-31BF989B94F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{748580DD-F369-440D-8DD5-31BF989B94F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{748580DD-F369-440D-8DD5-31BF989B94F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{748580DD-F369-440D-8DD5-31BF989B94F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8AF42D-96B7-45AE-8D5D-FD273A4CE69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8AF42D-96B7-45AE-8D5D-FD273A4CE69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8AF42D-96B7-45AE-8D5D-FD273A4CE69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8AF42D-96B7-45AE-8D5D-FD273A4CE69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC815E0-F90A-44DE-B063-21AB1B0CF54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC815E0-F90A-44DE-B063-21AB1B0CF54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC815E0-F90A-44DE-B063-21AB1B0CF54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC815E0-F90A-44DE-B063-21AB1B0CF54C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
